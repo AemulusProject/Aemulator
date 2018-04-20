@@ -42,6 +42,18 @@ class Aemulator(object):
         :return:
             None
         """
+        pass
+    
+    @abstractmethod
+    def cache_emulator(self, filename):
+        """
+        Cache the emulator to a file for easier re-loadig. 
+        :param filename:
+            The filename where the trained emulator will be cached.
+        :return:
+            None
+        """
+        pass
 
     @abstractmethod
     def load_emulator(self, filename):
@@ -53,6 +65,7 @@ class Aemulator(object):
         :return:
             None
         """
+        pass
 
     @abstractmethod
     def predict(self, params):
