@@ -6,10 +6,15 @@ __author__ = "Sean McLaughlin"
 __email__ = "swmclau2@stanford.edu"
 
 from abc import ABCMeta, abstractmethod
+try:
+    from six import with_metaclass
+except ImportError:
+    from future.utils import with_metaclass
 
 
-class Aemulator(object):
-    __metaclass__ = ABCMeta
+class Aemulator(with_metaclass(ABCMeta, object)):
+   # pervious implementation
+   # __metaclass__ = ABCMeta
 
     @abstractmethod
     def load_data(self, filename):
