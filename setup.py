@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(name = 'Aemulator',
-      version = '0.1',
+      version = '0.2',
       description= 'Abstract base class for Aemulus Project emulators.',
       author = 'Sean McLaughlin',
       author_email = 'swmclau2@stanford.edu',
