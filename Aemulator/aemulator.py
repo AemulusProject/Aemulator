@@ -13,7 +13,7 @@ except ImportError:
 
 
 class Aemulator(with_metaclass(ABCMeta, object)):
-   # pervious implementation
+   # previous implementation
    # __metaclass__ = ABCMeta
 
     @abstractmethod
