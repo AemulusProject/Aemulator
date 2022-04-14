@@ -9,5 +9,7 @@ Aemulus Project subclass Aemulator, to ensure a consistent API across all implen
 Install by calling:
 
 `git clone https://github.com/AemulusProject/Aemulator.git`
+
 `cd Aemulator`
+
 `python setup.py install --user`
